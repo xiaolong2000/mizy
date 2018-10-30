@@ -7,12 +7,8 @@
  
 startimer(100);
 
-
-var images=document.getElementById('images');
-console.log(images1);
-console.log(images2);
-console.log(images2.children[3]);
-
+var h2obj=document.querySelector('h2');
+console.log(h2obj);
 var currentNo=0; 
 
 function  changeNum()
@@ -35,7 +31,6 @@ function startChange()
 
 }
 function stopChange(){
-     
     window.clearInterval(timer);
     btnObj.textContent="启动"
 }
